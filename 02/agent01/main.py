@@ -25,7 +25,7 @@ def load_system_prompt(filepath):
         return "You are a PowerShell expert. Convert input to commands."
 
 # טעינת התוכן מהקובץ שלך
-SYSTEM_PROMPT_CONTENT = load_system_prompt("prompts/one.md")
+SYSTEM_PROMPT_CONTENT = load_system_prompt("prompts/three.md")
 
 def translate_to_cli(user_input):
     if not user_input.strip():
