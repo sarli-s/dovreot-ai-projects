@@ -1,0 +1,6 @@
+# 1. מפתחות סודיים (הכי חשוב!)
+.env
+
+storage/
+__pycache__/
+*.jsondd

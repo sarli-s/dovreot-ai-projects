@@ -1,0 +1,8 @@
+llama-index
+llama-index-llms-groq
+llama-index-embeddings-cohere
+llama-index-core
+gradio
+python-dotenv
+pydantic
+nest_asyncio

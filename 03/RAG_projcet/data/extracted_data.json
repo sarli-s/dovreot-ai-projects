@@ -1,0 +1,63 @@
+{
+    "decisions": [
+        {
+            "id": "dec-001",
+            "title": "תמיכה בשני שפות",
+            "summary": "המערכת תתמוך בשפות אנגלית ועברית.",
+            "tags": [
+                "localization"
+            ],
+            "observed_at": "System Specification"
+        },
+        {
+            "id": "dec-002",
+            "title": "תמיכה בתצורות RTL",
+            "summary": "הספרייה של המרכיבים UI תטפל בתצורות RTL באופן אוטומטי למשתמשי עברית.",
+            "tags": [
+                "localization"
+            ],
+            "observed_at": "System Specification"
+        },
+        {
+            "id": "dec-003",
+            "title": "הגבלת חיבורי סוקט",
+            "summary": "המערכת מוגבלת ל-10,000 חיבורי סוקט כרגע.",
+            "tags": [
+                "technical"
+            ],
+            "observed_at": "System Specification"
+        },
+        {
+            "id": "dec-004",
+            "title": "הגבלת עליית תמונות",
+            "summary": "עליית תמונות מוגבלת ל-5MB.",
+            "tags": [
+                "technical"
+            ],
+            "observed_at": "System Specification"
+        }
+    ],
+    "rules": [
+        {
+            "id": "rule-001",
+            "rule": "הספרייה של המרכיבים UI תטפל בתצורות RTL באופן אוטומטי.",
+            "scope": "כל המערכת",
+            "observed_at": "System Specification"
+        }
+    ],
+    "warnings": [
+        {
+            "id": "warn-001",
+            "area": "חיבורי סוקט",
+            "message": "המערכת מוגבלת ל-10,000 חיבורי סוקט.",
+            "severity": "high"
+        },
+        {
+            "id": "warn-002",
+            "area": "עליית תמונות",
+            "message": "עליית תמונות מוגבלת ל-5MB.",
+            "severity": "high"
+        }
+    ],
+    "generated_at": "2026-03-17T03:26:40.985626"
+}
