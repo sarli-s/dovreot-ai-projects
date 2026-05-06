@@ -35,7 +35,7 @@ async def enter_weather_forecast_city_israel(city: str) -> str:
 async def select_weather_forecast_city_israel() -> str:
     """בוחרת את העיר הראשונה מהרשימה הנפתחת"""
     global page
-    first = page.locator("#city_search_forecastautocomplete-list .autocomplete-items div").first
+    first = page.locator("#city_search_forecastautocomplete-list").first
     await first.click()
     await page.wait_for_load_state("networkidle")
     return "העיר נבחרה בהצלחה"
